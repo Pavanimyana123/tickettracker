@@ -11,3 +11,117 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+/* Style for the main container */
+.ticket-form {
+  font-family: Arial, sans-serif;
+  max-width: 400px;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+form {
+  border: 1px solid #ccc;
+  padding: 50px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  background-color: lightyellow;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+input,textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid black;
+  border-radius: 4px; 
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 15px 30px; 
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px; 
+}
+
+.developer {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.table thead th {
+  background-color: #343a40; /* Dark background for table header */
+  color: #fff; /* White text for table header */
+  text-align: center;
+}
+
+.table td{
+  text-align: center;
+}
+
+.status-button {
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.status-open {
+  background-color: #007bff; /* Blue for 'Open' status */
+}
+
+.status-in-progress {
+  background-color: #ffc107; /* Yellow for 'In Progress' status */
+}
+
+.status-closed {
+  background-color: #28a745; /* Green for 'Closed' status */
+}
+
+.status-rejected {
+  background-color: #dc3545; /* Red for 'Rejected' status */
+}
+
+.img-thumbnail {
+  border: 1px solid #dee2e6; /* Light border around thumbnail images */
+}
+
+.form-select {
+  width: 150px; /* Adjust the width as needed */
+}
+
+.save-button {
+  background-color: #007bff; /* Blue background for the 'Save' button */
+  color: #fff; /* White text for the 'Save' button */
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
